@@ -57,7 +57,7 @@ const SnowFall = (props) => {
                 <li className="snowflake" style={{color : `#${getRandomHexColor()}`}}>*</li>
             </ul>
 
-            <h1 style={{position : 'absolute', bottom : '0', left : '0'}}>Click anywhere to play again</h1>
+            <h2 style={{position : 'absolute', bottom : '0', right : '20px',}}>Click anywhere to play again</h2>
         </div>
     )
 }
